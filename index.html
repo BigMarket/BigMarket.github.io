@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Big Market Coin</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #header {
+            background-color: #f1f1f1;
+            border-bottom: 1px solid #ddd;
+            padding: 30px;
+            text-align: center;
+            color: #444;
+            font-size: 22px;
+        }
+        #content {
+            padding: 30px;
+            text-align: left;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    Big Market Coin
+</div>
+
+<div id="content">
+    <p><em>Developers</em> Create your team and proposal on github or similar public repository. Register, and submit your proposal and resource requirement. Vote on and comment on the other proposals.</p>
+    <p><em>Investors</em> Submit your investment value. Vote and comment on teams and proposals.</p>
+    <h2>Chain / Graph / Torus model</h2>
+    <ul>
+        <li><h4>About as fast as typical network, eg 100ms transactions</h4>
+            <p><a href="https://github.com/clemahieu/raiblocks/wiki">RaiBlocks</a>
+            <p>Dash - 2,000 tps</p>
+            <p>BitShares / Steemit</p>
+            <p>Iota</p>
+            <p>Byteball</p>
+            <p>NXT seems slow, but Ardor appears to be one of the best contract platforms</p>
+            <p>How fast is Ethereum? <a href="https://ethereum.stackexchange.com/questions/573/what-is-a-shard">sharding</a></p>
+            <p><a href="http://www.ibtimes.co.uk/singapore-sharding-blockchain-zilliqa-hits-2400-transactions-per-second-1642930">Zilliqa</a></li>
+        <li><h4>Network Faceting and Self Healing</h4>
+            <p>Can a type of sharding allow simultaneous disconnected networks to temporarily exist, then reconnect? <a href="http://afterether.org/blockchain-scalability-by-blockchain-clustering.html">Chain Clustering</a></p>
+            <p>Minimum number of nodes for a facet / subnet to exist</p>
+            <p>Idea of trusted and untrusted nodes... ie: trusted nodes are part of a child chain / graph?</p>
+            <p>Idea of network being able to easily break apart and heal without loosing authenticity</p></li>
+        <li><h4>Automatic Minimal Node Authority</h4>
+            <p>Every node with sufficeint compute power should contribute</p>
+            <p>Node authority evenly distributed in current network facet</p>
+            <p>Network connectivity is the "currency" to be lost</p>
+            <p>Coin rewards is the currency to be gained<p></li>
+    </ul>
+    <h2>API / Wallet</h2>
+    <ul>
+        <li><h4>API focused development</h4>
+            <p>Most coins create a wallet as if their coin is actually ever going to used bu humans as a currency. Not likely.</p>
+            <p>Computers are going to transact, consume, and or value the currency. A full API and wrappers is more necessary than a wallet. Especially for ios, Android, and IOT platforms.</li>
+    </ul>
+    <h2>Apps: Commerce, Communication, and Authentication</h2>
+    <ul>
+        <li><h4>Buy and Sell</h4>
+            <p>Take a photo, add up to 7 attributes (title, price, location, color, year, condition, etc), push to distributed network. Centralized aggregators will certainly follow.</p></li>
+        <li><h4>Communicate</h4>
+            <p>Chat, Voice, Conference protocols which leverage the chain / graph / torus for endpoints and authentication but (probably) use other protocols for transport<p></li>
+        <li><h4>Authenticate</h4>
+            <p>Proofs of identity and individuality</p></li>
+     </ul>
+    <h2>Coin Construction: Who gets paid, by whom and how</h2>
+    <ul><li><h4>Administrative</h4>
+            <p>Practical reality of the number or value of transactions in the current block should indicate coin strength and be some multiplier of budget. 1/active-forging-nodes * Forging Fee</p></li>
+        <li><h4>Investors</h4>
+            <p>Investors are Financial Service Consumers looking for return on investment, not specifically looking to use the product. Placing arbitrary value on coin is not decentralized. Not sure of good model.<p></li>
+        <li><h4>Developers</h4>
+            <p>Investor Buyin Distributed 100% to 3 rounds of development for each accepted team based on feeback, criticism, encouragement of all involved developers. For instance, if a team of 5 wins the right to produce API code for Android, then after the first round ALL of the other developers from all the other teams have the right to vote on quality, perspective, ability to meet goals, etc of that team (and all the other teams). A team with non-passing votes will not get to continue to next round. Reorganize, and resubmit. Highest voted projects go to round 2, etc. Developers can take Nominated investment currency, or speculatively take {some equivalent} of Big Market Coin.</p></li>
+        <li><h4>Miners / Forgers</h4>
+            <p>Typical: Reserved currency rewards eventually transitions to nodes setting forging fees. Reserved currency rewards are equally distributed as User rewards. Fees are not. Maybe look at RaiBlocks and Iota's ideas as well.</p></li>
+        <li><h4>Users</h4>
+            <p>Real world adoption is reflected by real world transactions. The higher the {transactions / node} ratio, the more "alive" the network is. Set up Network Marketing style 7 tier rewards where each layer up gets 1/layer reward. Consider app download and installation as a transaction which rewards the person that downloads the app, but becomes "downstream" to person that first transacts. Make it so that users encourage and actively build commerce communities. Phase out adoption incentive with reserved currency for miners.</p></li>
+    </ul>
+</div>
+
+</body>
+</html>
